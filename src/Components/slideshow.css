@@ -1,0 +1,30 @@
+.slideshow-container .mySwiper {
+    width: 100%;
+    height: 83.4vh;
+}
+
+.slideshow-container .mySwiper .swiperslide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper-button-prev{
+    background-image: url('../assets/logos/left-arrow.png');
+}
+
+.swiper-button-next{
+    background-image: url('../assets/logos/right-arrow.png');
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    display: none;
+}
