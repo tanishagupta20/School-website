@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+.moving-text {
+  background-color: rgb(58, 52, 52);
+  color: whitesmoke;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.scroll-down-arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(45deg);
+  margin: -28px;
+  animation: scroll 2s infinite;
+}
+
+.scroll-down-arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.scroll-down-arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.school-tagline{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 6.5rem;
+}
