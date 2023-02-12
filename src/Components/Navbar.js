@@ -1,13 +1,22 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './navbar.css'
 
 function Navbar() {
     const navRef = useRef()
+    const [navIsOpen, setNavStatus] = useState(window.innerWidth < 1024)
 
     const showNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
+        setNavStatus(!navIsOpen)
     }
+
+    useEffect(() => {
+      window.addEventListener("resize", () => {
+        setNavStatus(window.innerWidth < 1024)
+      })
+    }, [])
+    
 
     return (
         <header>
@@ -22,9 +31,11 @@ function Navbar() {
                     <FaTimes />
                 </button>
             </nav>
-            <button className='nav-btn' onClick={showNavBar}>
-                <FaBars />
-            </button>
+            {navIsOpen &&
+                <button className='nav-btn' onClick={showNavBar}>
+                    <FaBars />
+                </button>
+            }
         </header>
     )
 }
