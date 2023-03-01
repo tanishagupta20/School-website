@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
+import {Link} from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './navbar.css'
+import SSSLogo from '../assets/logos/SSSLogo.png'
 
 function Navbar() {
     const navRef = useRef()
@@ -20,11 +22,11 @@ function Navbar() {
 
     return (
         <header>
-            <h3>Logo</h3>
+            <img src = {SSSLogo} className = "sssLogo"/>
             <nav ref={navRef}>
                 <a href='#'>Home</a>
                 <a href='#'>About</a>
-                <a href='#'>Contact</a>
+                <Link to='/contact'>Contact</Link>
                 <a href='#'>Apply Online</a>
                 <a href='#'>Teacher Portal</a>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>

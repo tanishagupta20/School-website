@@ -10,10 +10,12 @@
 }
 
 .swiper-button-prev{
+    --swiper-navigation-size: 60px;
     background-image: url('../assets/logos/left-arrow.png');
 }
 
 .swiper-button-next{
+    --swiper-navigation-size: 60px;
     background-image: url('../assets/logos/right-arrow.png');
 }
 

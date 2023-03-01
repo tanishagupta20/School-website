@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+.moving-text a{
+  text-decoration: none;
+  color: white;
+}
+
 .scroll-down-arrow {
   position: absolute;
   top: 94%;

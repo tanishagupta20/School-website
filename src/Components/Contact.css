@@ -1,0 +1,56 @@
+.contact-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-parent>h1{
+    margin-top: 50px;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    background-color: aquamarine;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contact-div>input{
+    height : 30px;
+    width : 472px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: none;
+    margin-top: 7px;
+    border-radius: 3px;
+}
+
+.contact-div input:focus{
+    outline: none;
+}
+
+.contact-div>textarea{
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact-div textarea:focus{
+    outline: none;
+}
+
+.contact-div>button{
+    height : 30px;
+    width : 472px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}

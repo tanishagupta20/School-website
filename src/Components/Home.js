@@ -2,6 +2,7 @@ import React from 'react';
 import Slideshow from './Slideshow.js';
 import './Home.css';
 import Image from '../assets/logos/marky.jpg';
+import brochure1 from '../assets/brochures/SSSbrochure1.jpg'
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
 
       {/* M   A   R   Q   U   E   E        T   E   X   T */}
       <marquee className="moving-text" width="100%" direction="left" height="100px">
-        A D M I S S I O N S  &nbsp; &nbsp;   O P E N &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; W E ' R E &nbsp; &nbsp; H I R I N G&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; B R O C H U R E
+        A D M I S S I O N S  &nbsp; &nbsp;   O P E N &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; W E ' R E &nbsp; &nbsp; H I R I N G&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href = {brochure1} target = "_blank">B R O C H U R E</a>
       </marquee>
 
       {/* S   L   I   D   E   S   H   O   W */}
