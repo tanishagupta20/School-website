@@ -1,3 +1,9 @@
+.contact-bg{
+    background-image: url("../assets/bg/layered-waves-haikei.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contact-parent{
     display: flex;
     justify-content: center;
@@ -7,6 +13,7 @@
 
 .contact-parent>h1{
     margin-top: 50px;
+    /* color : white; */
 }
 
 .contact-div{
@@ -15,7 +22,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 40px;
-    background-color: aquamarine;
+    background-color: wheat;
     padding-left: 100px;
     padding-right: 100px;
 }

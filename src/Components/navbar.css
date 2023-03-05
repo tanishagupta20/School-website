@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   height: 80px;
   padding: 0 2rem;
-  background-color: aquamarine;
+  background-color: wheat;
   color: black;
   width: 100%;
 }
@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-  color: blanchedalmond;
+  color: rgb(154, 111, 31);
 }
 
 header .nav-btn {
@@ -41,7 +41,7 @@ header .nav-btn {
   background: transparent;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
@@ -64,7 +64,7 @@ header .nav-btn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: aquamarine;
+    background-color: wheat;
     transition: 1s;
     z-index: 999;
     transform: translateY(-100vh);

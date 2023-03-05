@@ -14,64 +14,46 @@
   color: white;
 }
 
-.scroll-down-arrow {
+.slide-splitter {
+  position: relative;
+background: white;
+  height: 60px;
+}
+
+.slide-splitter::before {
   position: absolute;
-  top: 94%;
+  content: "";
   left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: inherit;
+  background-image: url("../assets/logos/double-down.png");
+  background-repeat: no-repeat;
+  background-size: 45px;
+  background-position: center;
+  transform: translateX(-50%) translateY(50%);
+  bottom: 0px;
   cursor: pointer;
 }
 
-.scroll-down-arrow span {
-  display: block;
-  width: 30px;
-  height: 30px;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  transform: rotate(45deg);
-  margin: -28px;
-  animation: scroll 2s infinite;
-}
-
-.scroll-down-arrow span:nth-child(2) {
-  animation-delay: -0.2s;
-}
-
-.scroll-down-arrow span:nth-child(3) {
-  animation-delay: -0.4s;
-}
-
-@keyframes scroll {
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
-  }
-}
-
 .school-tagline {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Lovers Quarrel", cursive;
   font-size: 6.5rem;
+  background-image : linear-gradient(#f8a57b, #ff9500);
+  height: 300px;
 }
 
 .img-words-parent {
-  background-color: #2c3e50;
-  margin-top: 4.2%;
+  background-color : wheat;
 }
 
 .img-words-parent h1 {
   padding-top: 30px;
-  color: whitesmoke;
   text-align: center;
   font-family: "Old Standard TT", serif;
   font-size: 3rem;
@@ -90,27 +72,15 @@
 
 .principal-words {
   width: 50vw;
-  color: aliceblue;
   padding-top: 45px;
 }
 
-.semicircle {
+.curved {
   position: relative;
-  background: #2c3e50;
-  height: 7vh;
-}
-
-.semicircle::before {
-  position: absolute;
-  content: "";
-  left: 50%;
-  z-index: 10;
-  width: 100px;
+  background: wheat;
   height: 100px;
-  border-radius: 50%;
-  background: inherit;
-  transform: translateX(-50%) translateY(50%);
-  bottom: 0px;
+  border-bottom-left-radius: 50% 29%;
+  border-bottom-right-radius: 50% 29%;
 }
 
 .facilities-parent {
@@ -153,7 +123,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color : rgb(234, 220, 194);
   height: 600px;
 }
 
@@ -162,7 +132,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: 200px;
-  background-color: lightpink;
+  background-image : linear-gradient(#e2d257, #e6bb83);
 }
 
 .ul-properties {

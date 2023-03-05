@@ -26,11 +26,8 @@ function Home() {
       <Slideshow />
 
       {/* S   C   R   O   L   L      D   O   W   N      A   R   R   O   W */}
-      <div className='scroll-down-arrow' onClick={scrollWin}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+
+      <div class="slide-splitter" onClick={scrollWin}></div>
 
       {/* T   A   G   L   I   N   E */}
       <div className='school-tagline'>
@@ -54,7 +51,7 @@ function Home() {
 
       {/* D   I   V   I   D   E   R  */}
 
-      <section class="semicircle"></section>
+      <section class="curved"></section>
 
       {/* F   A   C   I   L   I   T   I   E   S */}
 

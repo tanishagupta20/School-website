@@ -199,7 +199,7 @@ function Facilities() {
                 <div id="flipPage2" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Qualified, dedicated and inspiring faculty</h1>
+                            <h2>Qualified, dedicated and inspiring faculty</h2>
                             <p>A knowledgeable faculty can offer specific knowledge and abilities, and commitment and motivation are crucial in creating a healthy learning environment and assisting students in achieving their full potential.</p>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ function Facilities() {
                 <div id="flipPage3" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Creating an English atmosphere</h1>
+                            <h2>Creating an English atmosphere</h2>
                             <p>The improvement of pupils' language abilities is given priority in our school that places a high priority on developing an English-speaking environment and delivering high-quality instruction.</p>
                         </div>
                     </div>
@@ -229,7 +229,7 @@ function Facilities() {
                 <div id="flipPage4" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Yoga, Aerobics and P.T.</h1>
+                            <h2>Yoga, Aerobics and P.T.</h2>
                             <p>Yoga, aerobics, and physical training programs are available at our school to assist students stay physically fit, manage stress, and improve their focus and mental alertness. A well-rounded education must include physical activities since they keep pupils fit and enable them to concentrate on their schoolwork.</p>
                         </div>
                     </div>
@@ -244,7 +244,7 @@ function Facilities() {
                 <div id="flipPage5" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Stress Free Education and Healthy Environment</h1>
+                            <h2>Stress Free Education and Healthy Environment</h2>
                             <p>Our institution offers students a stress-free educational experience and a positive environment that supports their mental and emotional well-being.</p>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ function Facilities() {
                 <div id="flipPage6" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>RO System and good Sanitation Facilities</h1>
+                            <h2>RO System and good Sanitation Facilities</h2>
                             <p>Our school guarantees that kids remain healthy and free from infections by providing a clean and hygienic environment with good sanitation facilities, including a RO system for safe drinking water.</p>
                         </div>
                     </div>
@@ -274,7 +274,7 @@ function Facilities() {
                 <div id="flipPage7" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Well furnished Classrooms</h1>
+                            <h2>Well furnished Classrooms</h2>
                             <p>A school that provides well-furnished classrooms is equipped with modern teaching aids, such as interactive whiteboards, projectors, and comfortable seating arrangements. These resources help create an engaging and effective learning environment that helps students learn more effectively.</p>
                         </div>
                     </div>
@@ -289,7 +289,7 @@ function Facilities() {
                 <div id="flipPage8" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Shaping the minds of tiny tots and setting new standards</h1>
+                            <h2>Shaping the minds of tiny tots and setting new standards</h2>
                             <p>In order to give pupils a solid basis for both their academic and personal growth, our school lays a heavy emphasis on developing young children's minds and establishing new standards. This can entail giving kids the chance to explore and learn new things, motivating them to ask questions, and fostering the development of their critical thinking abilities.</p>
                         </div>
                     </div>
@@ -304,7 +304,7 @@ function Facilities() {
                 <div id="flipPage9" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Conducting various competitions to inculcate in children a 'Seeking Spirit'</h1>
+                            <h2>Conducting various competitions to inculcate in children a 'Seeking Spirit'</h2>
                             <p>Several competitions are held at our school to support pupils to cultivate an inquiry-based mindset and a thirst for knowledge. Teamwork and leadership abilities can be developed through competitions.</p>
                         </div>
                     </div>
@@ -319,7 +319,7 @@ function Facilities() {
                 <div id="flipPage10" className="paper">
                     <div className="front">
                         <div className="front-content">
-                            <h1>Audio, Visual (Video) Smart Playway Teaching Method for Play Way Section</h1>
+                            <h2>Audio, Visual (Video) Smart Playway Teaching Method for Play Way Section</h2>
                             <p>To engage students in their learning and make it more interesting and successful, our school combines audio, visual, and video-based teaching methods. Play way methods are child-centric and emphasize hands-on learning and exploration.</p>
                         </div>
                     </div>

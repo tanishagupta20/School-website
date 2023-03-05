@@ -3,6 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
+    <div className='contact-bg'>
     <div className='contact-parent'>
       <h1>Contact Us</h1>
       <div className='contact-div'>
@@ -19,6 +20,7 @@ function Contact() {
         </form>
       </div>
 
+    </div>
     </div>
   )
 }
