@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
 
 .moving-text {
   background-color: rgb(58, 52, 52);
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.moving-text a{
+.moving-text a {
   text-decoration: none;
   color: white;
 }
@@ -55,41 +55,41 @@
   }
 }
 
-.school-tagline{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lovers Quarrel', cursive;
-    font-size: 6.5rem;
+.school-tagline {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 6.5rem;
 }
 
-.img-words-parent{
+.img-words-parent {
   background-color: #2c3e50;
   margin-top: 4.2%;
 }
 
-.img-words-parent h1{
+.img-words-parent h1 {
   padding-top: 30px;
   color: whitesmoke;
   text-align: center;
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
   font-size: 3rem;
   letter-spacing: 2px;
 }
 
-.img-words{
+.img-words {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.principal-img{
+.principal-img {
   padding-top: 45px;
 }
 
-.principal-words{
-  width : 50vw;
+.principal-words {
+  width: 50vw;
   color: aliceblue;
   padding-top: 45px;
 }
@@ -102,7 +102,7 @@
 
 .semicircle::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 50%;
   z-index: 10;
   width: 100px;
@@ -113,31 +113,31 @@
   bottom: 0px;
 }
 
-.facilities-parent{
+.facilities-parent {
   margin-top: 100px;
   text-align: center;
 }
 
-.facilities-parent h1{
-  font-family: 'Old Standard TT', serif;
+.facilities-parent h1 {
+  font-family: "Old Standard TT", serif;
   letter-spacing: 2px;
   font-size: 3rem;
 }
 
-.facilities-flex{
+.facilities-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 40px;
 }
 
-.facility-div{
+.facility-div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width : 450px;
-  height : 250px;
+  width: 450px;
+  height: 250px;
   width: 450px;
   text-align: center;
   border: 2px black solid;
@@ -145,16 +145,47 @@
   margin-top: 20px;
 }
 
-.facility-div>h4{
+.facility-div > h4 {
   margin-bottom: 10px;
 }
 
-.googlemap{
+.googlemap {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: red;
-  height : 600px;
+  height: 600px;
 }
 
+.school-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 200px;
+  background-color: lightpink;
+}
 
+.ul-properties {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hz-list li {
+  display: inline-block;
+  font-size: 2.5rem;
+  padding: 15px;
+}
+
+.school-social li:hover {
+  box-shadow: 0px 0px 6px 4px black;
+}
+
+.school-social li{
+  border-radius: 50%;
+  transition: 1.5s ease-in-out;
+}
+
+.info-margin-top {
+  margin-top: 70px;
+}
