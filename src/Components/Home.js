@@ -8,6 +8,11 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import {Link} from 'react-router-dom'
 
 function Home() {
+
+  function scrollWin(){
+    window.scrollTo({top : 730, left : 0, behavior : "smooth"});
+  }
+
   return (
     <div>
 
@@ -21,7 +26,7 @@ function Home() {
       <Slideshow />
 
       {/* S   C   R   O   L   L      D   O   W   N      A   R   R   O   W */}
-      <div className='scroll-down-arrow'>
+      <div className='scroll-down-arrow' onClick={scrollWin}>
         <span></span>
         <span></span>
         <span></span>
@@ -61,6 +66,7 @@ function Home() {
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.074196212632!2d76.81172885013075!3d30.518941002867138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc0bd4ec5dc99%3A0xf572f957b02182c0!2sShivam%20Smart%20School%2C%20Dappar!5e0!3m2!1sen!2sin!4v1678012964288!5m2!1sen!2sin" width="1050" height="500" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
+
       {/* F   O   O   T   E   R  */}
 
       <div className='school-footer'>
@@ -92,9 +98,6 @@ function Home() {
           </ul>
         </div>
       </div>
-
-
-
     </div>
   )
 }
