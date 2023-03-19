@@ -33,6 +33,10 @@ function Home() {
         Knowledge&nbsp;&nbsp;is&nbsp;&nbsp;Power
       </div>
 
+      {/* D   I   V   I   D   E   R  */}
+
+      <section class="spikes"></section>
+
       {/* W   I   S   E     W   O   R   D   S */}
 
       <div className='img-words-parent'>
@@ -68,7 +72,7 @@ function Home() {
       <div className='school-footer'>
         <div className='school-contact-no'>
           <ul className='ul-properties contact-info'>
-          <li><b>Contact No.</b></li> 
+            <li><b>Contact No.</b></li>
             <li><br></br></li>
             <li><b>Principal's Office : </b>+91 9467882227</li>
             <li><b>General Queries : </b>+91 9317576477</li>
@@ -98,9 +102,13 @@ function Home() {
 
         <div className='school-email-div'>
           <ul className='ul-properties'>
-            <li><a href="mailto:sssdappar@gmail.com" id="school-email"><b>Email us at : </b>sssdappar@gmail.com</a></li>
+            <li><b>Email us at : </b><a href="mailto:sssdappar@gmail.com" id="school-email">sssdappar@gmail.com</a></li>
           </ul>
         </div>
+      </div>
+
+      <div className='copyright-div'>
+        <span>Shivam Smart School © 2023</span>
       </div>
     </div>
   )

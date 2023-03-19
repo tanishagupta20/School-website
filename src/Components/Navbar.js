@@ -25,7 +25,7 @@ function Navbar() {
             <img src = {SSSLogo} className = "sssLogo"/>
             <nav ref={navRef}>
                 <Link to = '/'>Home</Link>
-                <a href='#'>About</a>
+                <a href='/about'>About</a>
                 <Link to='/contact'>Contact</Link>
                 <a href='#'>Apply Online</a>
                 <a href='#'>Teacher Portal</a>

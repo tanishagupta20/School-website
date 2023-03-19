@@ -48,12 +48,31 @@ background: white;
   height: 300px;
 }
 
+.spikes {
+  position: relative;
+  background: #ff9500;
+}
+
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(135deg, #ff9500 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+  background-position: 0 0;
+}
+
 .img-words-parent {
   background-color : wheat;
 }
 
 .img-words-parent h1 {
-  padding-top: 30px;
+  padding-top: 50px;
   text-align: center;
   font-family: "Old Standard TT", serif;
   font-size: 3rem;
@@ -132,8 +151,8 @@ background: white;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 200px;
-  background-image : linear-gradient(#e2d257, #e6bb83);
+  height: 300px;
+  background-color : #FFAC31;
   flex-wrap: wrap;
 }
 
@@ -224,4 +243,13 @@ background: white;
 
 #school-email:hover{
   color: rgb(142, 96, 11);
+}
+
+.copyright-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 50px;
+  background-color : #FFAC31;
+  font-size: 0.87rem;
 }
