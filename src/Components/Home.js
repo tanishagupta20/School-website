@@ -69,9 +69,9 @@ function Home() {
       <div className='school-footer'>
         <div className='school-contact-no info-margin-top'>
           <ul className='ul-properties'>
-            <li>999999999</li>
-            <li>999999999</li>
-            <li>999999999</li>
+            <li>+91 9467882227</li>
+            <li>+91 9317576477</li>
+            <li>+91 7009175620</li>
           </ul>
         </div>
 
@@ -91,7 +91,7 @@ function Home() {
 
         <div className='school-email info-margin-top'>
           <ul className='ul-properties'>
-            <li>abc@gmail.com</li>
+            <li>sssdappar@gmail.com</li>
           </ul>
         </div>
       </div>

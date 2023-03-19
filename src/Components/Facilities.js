@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import './Facilities.css'
+import Yoga from '../assets/imgs/yoga.jpg'
+import TinyTots from '../assets/imgs/tinyTots.jpg'
 
 function Facilities() {
 
@@ -220,7 +222,7 @@ function Facilities() {
                     </div>
                     <div className="back">
                         <div className="back-content">
-                            <img src="" alt='an esports event in progess' />
+                            <img src={Yoga} alt='Yoga, Aerobics and P.T.' />
                         </div>
                     </div>
                 </div>
@@ -235,7 +237,7 @@ function Facilities() {
                     </div>
                     <div className="back">
                         <div className="back-content">
-                            <img src="" alt='video editing' />
+                            <img src="" alt='Stress Free Education and Healthy Environment' />
                         </div>
                     </div>
                 </div>
@@ -280,7 +282,7 @@ function Facilities() {
                     </div>
                     <div className="back">
                         <div className="back-content">
-                            <img src="" alt='a person delivering a talk' />
+                            <img src = {TinyTots} alt='Shaping the minds of tiny tots' />
                         </div>
                     </div>
                 </div>
@@ -325,7 +327,7 @@ function Facilities() {
                     </div>
                     <div className="back">
                         <div className="back-content">
-                            <h2>We'll see you there!</h2>
+                            <h2>Welcome to SSS!!</h2>
                         </div>
                     </div>
                 </div>
