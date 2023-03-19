@@ -131,8 +131,10 @@ background: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   height: 200px;
   background-image : linear-gradient(#e2d257, #e6bb83);
+  flex-wrap: wrap;
 }
 
 .ul-properties {
@@ -141,21 +143,85 @@ background: white;
   padding: 0;
 }
 
+.contact-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hz-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .hz-list li {
-  display: inline-block;
   font-size: 2.5rem;
-  padding: 15px;
 }
 
-.school-social li:hover {
-  box-shadow: 0px 0px 6px 4px black;
-}
-
-.school-social li{
+.icon-link{
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
   border-radius: 50%;
-  transition: 1.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
 }
 
-.info-margin-top {
-  margin-top: 70px;
+.icon{
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.icon-link:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.icon-link:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.icon-link:hover:before {
+  top: 0;
+}
+
+.hz-list li:nth-child(1) .icon-link:before{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.hz-list li:nth-child(2) .icon-link:before{
+  background: #3b5999;
+}
+
+.hz.list li:nth-child(3) .icon-link:before {
+  background: red;
+}
+
+#school-email{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+#school-email:hover{
+  color: rgb(142, 96, 11);
 }

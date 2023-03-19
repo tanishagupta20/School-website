@@ -4,13 +4,12 @@ import Facilities from './Facilities.js';
 import './Home.css';
 import Image from '../assets/logos/marky.jpg';
 import brochure1 from '../assets/brochures/SSSbrochure1.jpg'
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
-  function scrollWin(){
-    window.scrollTo({top : 730, left : 0, behavior : "smooth"});
+  function scrollWin() {
+    window.scrollTo({ top: 730, left: 0, behavior: "smooth" });
   }
 
   return (
@@ -60,38 +59,46 @@ function Home() {
       {/* M   A   P */}
 
       <div className="googlemap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.074196212632!2d76.81172885013075!3d30.518941002867138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc0bd4ec5dc99%3A0xf572f957b02182c0!2sShivam%20Smart%20School%2C%20Dappar!5e0!3m2!1sen!2sin!4v1678012964288!5m2!1sen!2sin" width="1050" height="500" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.074196212632!2d76.81172885013075!3d30.518941002867138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc0bd4ec5dc99%3A0xf572f957b02182c0!2sShivam%20Smart%20School%2C%20Dappar!5e0!3m2!1sen!2sin!4v1678012964288!5m2!1sen!2sin" width="2000" height="600" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
 
       {/* F   O   O   T   E   R  */}
 
       <div className='school-footer'>
-        <div className='school-contact-no info-margin-top'>
-          <ul className='ul-properties'>
-            <li>+91 9467882227</li>
-            <li>+91 9317576477</li>
-            <li>+91 7009175620</li>
+        <div className='school-contact-no'>
+          <ul className='ul-properties contact-info'>
+          <li><b>Contact No.</b></li> 
+            <li><br></br></li>
+            <li><b>Principal's Office : </b>+91 9467882227</li>
+            <li><b>General Queries : </b>+91 9317576477</li>
+            <li><b>Admission Procedure : </b>+91 7009175620</li>
           </ul>
         </div>
 
-        <div className='school-social info-margin-top'>
+        <div className='school-social'>
           <ul className='ul-properties hz-list'>
             <li>
-              <Link to="#"><FaInstagram /></Link>
+              <Link to="#" className='icon-link'>
+                <i class="fab fa-instagram icon"></i>
+              </Link>
             </li>
             <li>
-              <Link to="#"><FaYoutube /></Link>
+              <Link to="#" className='icon-link'>
+                <i class="fab fa-facebook-f icon"></i>
+              </Link>
             </li>
             <li>
-              <Link to="#"><FaFacebook /></Link>
+              <Link to="#" className='icon-link'>
+                <i class="fab fa-youtube icon"></i>
+              </Link>
             </li>
           </ul>
         </div>
 
-        <div className='school-email info-margin-top'>
+        <div className='school-email-div'>
           <ul className='ul-properties'>
-            <li>sssdappar@gmail.com</li>
+            <li><a href="mailto:sssdappar@gmail.com" id="school-email"><b>Email us at : </b>sssdappar@gmail.com</a></li>
           </ul>
         </div>
       </div>

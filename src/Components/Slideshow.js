@@ -2,7 +2,7 @@ import { React, useRef } from 'react';
 import './slideshow.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Navigation, EffectFade } from 'swiper';
+import { Navigation, EffectFade, Autoplay } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import Image1 from '../assets/imgs/img1.jpg';
@@ -12,12 +12,13 @@ export default function Slideshow() {
     return (
         <div className='slideshow-container'>
             <Swiper
-                modules={[Navigation, EffectFade]}
+                modules={[Navigation, EffectFade, Autoplay]}
                 navigation
                 effect
                 speed={800}
                 slidesPerView={1}
                 loop
+                autoplay = {{delay : 2000}}
                 className={"mySwiper"}
             >
 
